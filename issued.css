@@ -1,0 +1,111 @@
+
+.issued-container {
+  padding: 20px;
+  background: #f4f7fa;
+}
+
+.issued-container h2 {
+  margin-bottom: 20px;
+  color: #1e3a8a;
+}
+
+.issued-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.issued-table th, .issued-table td {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.issued-table th {
+  background-color: #1e3a8a;
+  color: white;
+}
+
+.issued-table input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+.issued-form {
+  margin-bottom: 20px;
+  padding: 16px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+.issued-form div {
+  margin-bottom: 10px;
+}
+
+.issued-form label {
+  display: inline-block;
+  width: 120px;
+  font-weight: bold;
+}
+
+.issued-form input[type="text"],
+.issued-form input[type="date"] {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.issued-form button {
+  padding: 8px 16px;
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* Dashboard.css */
+
+button {
+  padding: 8px 14px;
+  margin: 6px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Default (Add/Update) Button */
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Cancel Button */
+button[type="button"] {
+  background-color: #6c757d;
+  color: white;
+}
+
+button[type="button"]:hover {
+  background-color: #5a6268;
+}
+
+/* Table Edit Button */
+.issued-table button {
+  background-color: #ffc107;
+  color: #212529;
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  margin: 2px;
+}
+
+.issued-table button:hover {
+  background-color: #e0a800;
+}

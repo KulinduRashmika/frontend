@@ -1,0 +1,101 @@
+/* src/pages/staff.css */
+
+.staff-container {
+  padding: 2rem;
+  background-color: #f9fafb;
+  min-height: 80vh;
+}
+
+.staff-container h2 {
+  color: #1e3a8a;
+  margin-bottom: 1.5rem;
+}
+
+.staff-form {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+
+.staff-form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.staff-form input[type="text"],
+.staff-form input[type="email"],
+.staff-form input[type="date"] {
+  flex: 1;
+  margin-left: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.staff-form input[type="checkbox"] {
+  transform: scale(1.2);
+}
+
+.staff-form button {
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.staff-form button:hover {
+  background-color: #1e40af;
+}
+
+.staff-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.staff-table th,
+.staff-table td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.staff-table th {
+  background-color: #1e3a8a;
+  color: white;
+}
+
+.staff-table tr:nth-child(even) {
+  background-color: #f3f4f6;
+}
+
+.staff-table button {
+  padding: 0.3rem 0.7rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.staff-table button:hover {
+  background-color: #2563eb;
+}
+.staff-search {
+  margin-bottom: 1.5rem;
+}
+
+.staff-search input {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
